@@ -1,4 +1,7 @@
 #!/bin/bash
+
+git pull
+
 if [ -d "lava-docker" ]; then
 	cd lava-docker
 	git pull
